@@ -83,7 +83,7 @@ txt1.close()
 
 resultstring = "________ ᕲ DuinoCoin ________"
 resultstring += '\n'
-resultstring += '🪙' + " Balance: " + str(round(duco_balance,2)) + " ᕲ"  + " + "  + str(round(increased_balance,2))
+resultstring += "Balance: " + str(round(duco_balance,2)) + " ᕲ"  + " + "  + str(round(increased_balance,2))
 resultstring += '\n'
 resultstring += u'\u26CF' + " Workers: " + str(minerscount)
 resultstring += '\n'
